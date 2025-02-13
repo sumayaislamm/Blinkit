@@ -84,6 +84,82 @@ class CartScreens extends StatelessWidget {
                 child: Uihelper.CustomTextField(controller: searchController))
           ],
         ),
+        SizedBox(
+          height: 20,
+        ),
+        Uihelper.CustomImage(img: "troly.png"),
+        SizedBox(
+          height: 20,
+        ),
+        Uihelper.CustomText(
+            text: "Rendering will be easy",
+            color: Color(0XFF000000),
+            fontweight: FontWeight.bold,
+            fontsize: 16,
+            fontfamily: "bold"),
+        Uihelper.CustomText(
+          text: "Items you order will show up here so you can buy",
+          color: Color(0XFF000000),
+          fontweight: FontWeight.bold,
+          fontsize: 10,
+        ),
+        Uihelper.CustomText(
+          text: "them again easily.",
+          color: Color(0XFF000000),
+          fontweight: FontWeight.bold,
+          fontsize: 10,
+        ),
+        SizedBox(
+          height: 30,
+        ),
+        Row(
+          children: [
+            SizedBox(
+              width: 20,
+            ),
+            Uihelper.CustomText(
+                text: "Best Sellers",
+                color: Color(0XFF000000),
+                fontweight: FontWeight.bold,
+                fontsize: 16,
+                fontfamily: "bold"),
+          ],
+        ),
+        SizedBox(
+          height: 20,
+        ),
+        Row(
+          children: [
+            SizedBox(
+              width: 20,
+            ),
+            Stack(
+              children: [
+                Uihelper.CustomImage(img: "image 45.png"),
+                Padding(
+                  padding: EdgeInsets.only(top: 95, left: 66),
+                  child: Uihelper.CustomButton(() {}),
+                ),
+              ],
+            )
+          ],
+        ),
+        Row(
+          children: [
+            SizedBox(
+              width: 20,
+            ),
+            Stack(
+              children: [
+                Uihelper.CustomImage(img: "image 45.png"),
+                Padding(
+                  padding: EdgeInsets.only(top: 95, left: 66),
+                  child: Uihelper.CustomButton(() {}),
+                ),
+              ],
+            )
+          ],
+        ),
       ],
     ));
   }
