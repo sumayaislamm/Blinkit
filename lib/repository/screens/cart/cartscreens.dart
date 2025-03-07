@@ -7,7 +7,8 @@ class CartScreens extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Column(
+        body: SingleChildScrollView(
+            child: Column(
       children: [
         Stack(
           children: [
@@ -161,6 +162,6 @@ class CartScreens extends StatelessWidget {
           ],
         ),
       ],
-    ));
+    )));
   }
 }
