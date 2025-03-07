@@ -6,6 +6,8 @@ import 'package:blinkit_app/repository/widgets/uihelper.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavScreen extends StatefulWidget {
+  const BottomNavScreen({super.key});
+
   @override
   State<BottomNavScreen> createState() => _BottomNavScreenState();
 }
@@ -13,10 +15,10 @@ class BottomNavScreen extends StatefulWidget {
 class _BottomNavScreenState extends State<BottomNavScreen> {
   int currentIndex = 0;
   List<Widget> pages = [
-    HomeScreen(),
+    const HomeScreen(),
     CartScreens(),
-    CatagoryScreens(),
-    PrintScreens(),
+    const CatagoryScreens(),
+    const PrintScreens(),
   ];
   @override
   Widget build(BuildContext context) {

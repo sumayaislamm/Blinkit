@@ -28,7 +28,7 @@ class Uihelper {
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
           color: Colors.white,
-          border: Border.all(color: Color(0XFFC5C5C5))),
+          border: Border.all(color: const Color(0XFFC5C5C5))),
       child: TextField(
         controller: controller,
         decoration: InputDecoration(
@@ -47,9 +47,9 @@ class Uihelper {
       width: 30,
       decoration: BoxDecoration(
           color: Colors.white,
-          border: Border.all(color: Color(0XFF27AF34)),
+          border: Border.all(color: const Color(0XFF27AF34)),
           borderRadius: BorderRadius.circular(3)),
-      child: Center(
+      child: const Center(
         child: Text(
           "Add",
           style: TextStyle(fontSize: 8, color: Color(0XFF27AF34)),
