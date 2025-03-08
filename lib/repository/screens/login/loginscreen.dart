@@ -12,17 +12,17 @@ class Loginscreen extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Uihelper.CustomImage(img: "Blinkit Onboarding Screen.png"),
+          Uihelper.customImage(img: "Blinkit Onboarding Screen.png"),
           // SizedBox(
           //   height: 30,
           // ),
-          Uihelper.CustomImage(img: "image 10.png"),
+          Uihelper.customImage(img: "image 10.png"),
           // SizedBox(
           //   height: 20,
           // ),
-          Uihelper.CustomText(
+          Uihelper.customText(
               text: "India's Last Mintue App",
-              color: const Color(0xfff000000),
+              color: const Color(0xFFFFFFFF),
               fontweight: FontWeight.bold,
               fontsize: 20),
           // SizedBox(
@@ -43,7 +43,7 @@ class Loginscreen extends StatelessWidget {
                   const SizedBox(
                     height: 20,
                   ),
-                  Uihelper.CustomText(
+                  Uihelper.customText(
                       text: "Sumaya",
                       color: const Color(0XFF000000),
                       fontweight: FontWeight.w500,
@@ -51,7 +51,7 @@ class Loginscreen extends StatelessWidget {
                   const SizedBox(
                     height: 5,
                   ),
-                  Uihelper.CustomText(
+                  Uihelper.customText(
                       text: "389247238758",
                       color: const Color(0XFF9C9C9C),
                       fontweight: FontWeight.bold,
@@ -67,7 +67,8 @@ class Loginscreen extends StatelessWidget {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => BottomNavScreen()));
+                                  builder: (context) =>
+                                      const BottomNavScreen()));
                         },
                         style: ElevatedButton.styleFrom(
                             backgroundColor: const Color(0XFFE23744),
@@ -76,7 +77,7 @@ class Loginscreen extends StatelessWidget {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Uihelper.CustomText(
+                            Uihelper.customText(
                                 text: "Login with",
                                 color: const Color(0XFFFFFFFF),
                                 fontweight: FontWeight.bold,
@@ -85,14 +86,14 @@ class Loginscreen extends StatelessWidget {
                             const SizedBox(
                               width: 5,
                             ),
-                            Uihelper.CustomImage(img: "image 9.png"),
+                            Uihelper.customImage(img: "image 9.png"),
                           ],
                         )),
                   ),
                   const SizedBox(
                     height: 5,
                   ),
-                  Uihelper.CustomText(
+                  Uihelper.customText(
                       text:
                           "Access your saved addresses from Zomato automatically!",
                       color: const Color(0XFF9C9C9C),
@@ -101,7 +102,7 @@ class Loginscreen extends StatelessWidget {
                   const SizedBox(
                     height: 20,
                   ),
-                  Uihelper.CustomText(
+                  Uihelper.customText(
                       text: "or Login with phone number",
                       color: const Color(0xFF269237),
                       fontweight: FontWeight.normal,

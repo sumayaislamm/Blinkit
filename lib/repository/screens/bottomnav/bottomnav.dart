@@ -17,7 +17,7 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
   List<Widget> pages = [
     const HomeScreen(),
     CartScreens(),
-    const CatagoryScreens(),
+    CatagoryScreens(),
     const PrintScreens(),
   ];
   @override
@@ -30,15 +30,15 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(
-              icon: Uihelper.CustomImage(img: "home 1.png"), label: "Home"),
+              icon: Uihelper.customImage(img: "home 1.png"), label: "Home"),
           BottomNavigationBarItem(
-              icon: Uihelper.CustomImage(img: "shopping-bag 1.png"),
+              icon: Uihelper.customImage(img: "shopping-bag 1.png"),
               label: "Cart"),
           BottomNavigationBarItem(
-              icon: Uihelper.CustomImage(img: "category 1.png"),
+              icon: Uihelper.customImage(img: "category 1.png"),
               label: "Catagories"),
           BottomNavigationBarItem(
-              icon: Uihelper.CustomImage(img: "printer 1.png"), label: "Print")
+              icon: Uihelper.customImage(img: "printer 1.png"), label: "Print")
         ],
         type: BottomNavigationBarType.fixed,
         currentIndex: currentIndex,

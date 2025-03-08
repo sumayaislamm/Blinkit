@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class CartScreens extends StatelessWidget {
   // const CartScreens({super.key});
-  TextEditingController searchController = TextEditingController();
+  final TextEditingController searchController = TextEditingController();
 
   CartScreens({super.key});
   @override
@@ -28,7 +28,7 @@ class CartScreens extends StatelessWidget {
                       const SizedBox(
                         width: 20,
                       ),
-                      Uihelper.CustomText(
+                      Uihelper.customText(
                           text: "Blinkit in",
                           color: const Color(0XFF000000),
                           fontweight: FontWeight.bold,
@@ -41,7 +41,7 @@ class CartScreens extends StatelessWidget {
                       const SizedBox(
                         width: 20,
                       ),
-                      Uihelper.CustomText(
+                      Uihelper.customText(
                           text: "16 minutes",
                           color: const Color(0XFF000000),
                           fontweight: FontWeight.bold,
@@ -54,12 +54,12 @@ class CartScreens extends StatelessWidget {
                       const SizedBox(
                         width: 20,
                       ),
-                      Uihelper.CustomText(
+                      Uihelper.customText(
                           text: "HOME",
                           color: const Color(0XFF000000),
                           fontweight: FontWeight.bold,
                           fontsize: 14),
-                      Uihelper.CustomText(
+                      Uihelper.customText(
                           text: " -  Sujal Dave, Ratanada, Jodhpur (Raj)",
                           color: const Color(0XFF000000),
                           fontweight: FontWeight.bold,
@@ -84,29 +84,29 @@ class CartScreens extends StatelessWidget {
             Positioned(
                 bottom: 30,
                 left: 10,
-                child: Uihelper.CustomTextField(controller: searchController))
+                child: Uihelper.customTextField(controller: searchController))
           ],
         ),
         const SizedBox(
           height: 20,
         ),
-        Uihelper.CustomImage(img: "troly.png"),
+        Uihelper.customImage(img: "troly.png"),
         const SizedBox(
           height: 20,
         ),
-        Uihelper.CustomText(
+        Uihelper.customText(
             text: "Rendering will be easy",
             color: const Color(0XFF000000),
             fontweight: FontWeight.bold,
             fontsize: 16,
             fontfamily: "bold"),
-        Uihelper.CustomText(
+        Uihelper.customText(
           text: "Items you order will show up here so you can buy",
           color: const Color(0XFF000000),
           fontweight: FontWeight.bold,
           fontsize: 10,
         ),
-        Uihelper.CustomText(
+        Uihelper.customText(
           text: "them again easily.",
           color: const Color(0XFF000000),
           fontweight: FontWeight.bold,
@@ -120,7 +120,7 @@ class CartScreens extends StatelessWidget {
             const SizedBox(
               width: 20,
             ),
-            Uihelper.CustomText(
+            Uihelper.customText(
                 text: "Best Sellers",
                 color: const Color(0XFF000000),
                 fontweight: FontWeight.bold,
@@ -139,39 +139,39 @@ class CartScreens extends StatelessWidget {
             Column(children: [
               Stack(
                 children: [
-                  Uihelper.CustomImage(img: "image 45.png"),
+                  Uihelper.customImage(img: "image 45.png"),
                   Padding(
                     padding: const EdgeInsets.only(top: 95, left: 66),
-                    child: Uihelper.CustomButton(() {}),
+                    child: Uihelper.customButton(() {}),
                   ),
                 ],
               ),
-              Uihelper.CustomText(
+              Uihelper.customText(
                   text: "Amul Taaza Toned",
-                  color: Color(0XFF000000),
+                  color: const Color(0XFF000000),
                   fontweight: FontWeight.normal,
                   fontsize: 8),
-              Uihelper.CustomText(
+              Uihelper.customText(
                   text: "Fresh Milk",
-                  color: Color(0XFF000000),
+                  color: const Color(0XFF000000),
                   fontweight: FontWeight.normal,
                   fontsize: 8),
               Row(
                 children: [
-                  Uihelper.CustomImage(img: "timer 1.png"),
-                  Uihelper.CustomText(
+                  Uihelper.customImage(img: "timer 1.png"),
+                  Uihelper.customText(
                       text: "16 MINS",
-                      color: Color(0XFF9C9C9C),
+                      color: const Color(0XFF9C9C9C),
                       fontweight: FontWeight.w400,
                       fontsize: 10)
                 ],
               ),
               Row(
                 children: [
-                  Uihelper.CustomImage(img: "image 47.png"),
-                  Uihelper.CustomText(
+                  Uihelper.customImage(img: "image 47.png"),
+                  Uihelper.customText(
                       text: "27",
-                      color: Color(0XFF000000),
+                      color: const Color(0XFF000000),
                       fontweight: FontWeight.w700,
                       fontsize: 15)
                 ],
@@ -183,21 +183,21 @@ class CartScreens extends StatelessWidget {
             Column(children: [
               Stack(
                 children: [
-                  Uihelper.CustomImage(img: "image 44.png"),
+                  Uihelper.customImage(img: "image 44.png"),
                   Padding(
                     padding: const EdgeInsets.only(top: 95, left: 66),
-                    child: Uihelper.CustomButton(() {}),
+                    child: Uihelper.customButton(() {}),
                   ),
                 ],
               ),
-              Uihelper.CustomText(
+              Uihelper.customText(
                   text: "",
-                  color: Color(0XFF000000),
+                  color: const Color(0XFF000000),
                   fontweight: FontWeight.normal,
                   fontsize: 8),
-              Uihelper.CustomText(
+              Uihelper.customText(
                   text: "Potato (Aloo)",
-                  color: Color(0XFF000000),
+                  color: const Color(0XFF000000),
                   fontweight: FontWeight.normal,
                   fontsize: 8),
               const SizedBox(
@@ -205,20 +205,20 @@ class CartScreens extends StatelessWidget {
               ),
               Row(
                 children: [
-                  Uihelper.CustomImage(img: "timer 1.png"),
-                  Uihelper.CustomText(
+                  Uihelper.customImage(img: "timer 1.png"),
+                  Uihelper.customText(
                       text: "16 MINS",
-                      color: Color(0XFF9C9C9C),
+                      color: const Color(0XFF9C9C9C),
                       fontweight: FontWeight.w400,
                       fontsize: 10)
                 ],
               ),
               Row(
                 children: [
-                  Uihelper.CustomImage(img: "image 47.png"),
-                  Uihelper.CustomText(
+                  Uihelper.customImage(img: "image 47.png"),
+                  Uihelper.customText(
                       text: "37",
-                      color: Color(0XFF000000),
+                      color: const Color(0XFF000000),
                       fontweight: FontWeight.w700,
                       fontsize: 15)
                 ],
@@ -230,39 +230,39 @@ class CartScreens extends StatelessWidget {
             Column(children: [
               Stack(
                 children: [
-                  Uihelper.CustomImage(img: "image 46.png"),
+                  Uihelper.customImage(img: "image 46.png"),
                   Padding(
                     padding: const EdgeInsets.only(top: 95, left: 66),
-                    child: Uihelper.CustomButton(() {}),
+                    child: Uihelper.customButton(() {}),
                   ),
                 ],
               ),
-              Uihelper.CustomText(
+              Uihelper.customText(
                   text: "",
-                  color: Color(0XFF000000),
+                  color: const Color(0XFF000000),
                   fontweight: FontWeight.normal,
                   fontsize: 8),
-              Uihelper.CustomText(
+              Uihelper.customText(
                   text: "Hybrid Tomato",
-                  color: Color(0XFF000000),
+                  color: const Color(0XFF000000),
                   fontweight: FontWeight.normal,
                   fontsize: 8),
               Row(
                 children: [
-                  Uihelper.CustomImage(img: "timer 1.png"),
-                  Uihelper.CustomText(
+                  Uihelper.customImage(img: "timer 1.png"),
+                  Uihelper.customText(
                       text: "16 MINS",
-                      color: Color(0XFF9C9C9C),
+                      color: const Color(0XFF9C9C9C),
                       fontweight: FontWeight.w400,
                       fontsize: 10)
                 ],
               ),
               Row(
                 children: [
-                  Uihelper.CustomImage(img: "image 47.png"),
-                  Uihelper.CustomText(
+                  Uihelper.customImage(img: "image 47.png"),
+                  Uihelper.customText(
                       text: "37",
-                      color: Color(0XFF000000),
+                      color: const Color(0XFF000000),
                       fontweight: FontWeight.w700,
                       fontsize: 15)
                 ],
