@@ -17,7 +17,7 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
   List<Widget> pages = [
     const HomeScreen(),
     CartScreens(),
-    CatagoryScreens(),
+    const CatagoryScreens(),
     const PrintScreens(),
   ];
   @override
